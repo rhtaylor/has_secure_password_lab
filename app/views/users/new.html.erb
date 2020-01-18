@@ -1,0 +1,5 @@
+
+<% if flash.key?(:error) %>
+<h1><%= flash[:error] %> </h1>
+<% end %>
+<%= render 'form' %>
